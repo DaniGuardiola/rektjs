@@ -1,5 +1,5 @@
 # rektJS
-get any webpage rekt m8
+Get any webpage rekt m8
 
 ## Demo and more info
 [rekt.daniguardiola.me](http://rekt.daniguardiola.me/)
