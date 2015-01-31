@@ -1,5 +1,7 @@
-# rektjs
+# rektJS
 get rekt m8
+
+![rektJS logo](http://rekt.daniguardiola.me/sunglasses.png)
 
 ## Usage
 
