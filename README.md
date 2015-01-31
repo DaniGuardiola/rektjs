@@ -5,7 +5,7 @@ get rekt m8
 
 ## Usage
 
-1- Include rekt.js to your project
+1- Include rekt.js in your project
 
 2- Run 'rekt.get()'
 
