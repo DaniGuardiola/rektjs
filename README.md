@@ -1,4 +1,4 @@
-# rektJS
+# rektJS [rekt.daniguardiola.me](http://rekt.daniguardiola.me/)
 get rekt m8
 
 ![rektJS logo](http://rekt.daniguardiola.me/sunglasses.png)
