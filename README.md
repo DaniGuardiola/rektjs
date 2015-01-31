@@ -1,9 +1,17 @@
-# rektjs
-get rekt m8
+# rektJS
+Get any webpage rekt m8
 
-## Usage
+## Demo and more info
+[rekt.daniguardiola.me](http://rekt.daniguardiola.me/)
 
-1- Include rekt.js to your project
+## The useless framework
+This framework was created by Dani Guardiola because internet and drugs ...or maybe Illuminati
+
+![rektJS logo](http://rekt.daniguardiola.me/sunglasses.png)
+
+## Basic usage
+
+1- Include rekt.js in your project
 
 2- Run 'rekt.get()'
 
