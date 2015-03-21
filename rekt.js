@@ -57,8 +57,8 @@ var rekt = {
 		rekt.soundEnable.style.opacity = "0.5";
 		rekt.soundEnable.style.textAlign = "center";
 		rekt.soundEnable.style.padding = "22px 0";
-		rekt.soundEnable.textContent = "LET ME HEAR THE DROP";
-		rekt.soundEnable.setAttribute("md-typo", "display-1");
+		rekt.soundEnable.textContent = "TOUCH HER 4 DA DABSTEP";
+ 		rekt.soundEnable.setAttribute("md-typo", "display-1");
 		rekt.soundEnable.setAttribute("md-color", "white");
 		rekt.soundEnable.style.zIndex = '9999';
 		rekt.soundEnable.addEventListener('click',function(){
@@ -76,6 +76,12 @@ var rekt = {
 		rekt.div.appendChild(rekt.soundEnable);
 	},
 	pre: function(then, options){
+		[].forEach.call(document.querySelectorAll('.rekt-illuminati'),function(el){
+			console.log('HOLAAAAAAAAAAAAAAAAA'+el);
+			el.addEventListener('mouseover',function(){
+				rekt.illum.play();
+			});
+		});
 		if (!rekt.div) {
 			rekt.div = document.createElement('div');
 			rekt.div.id = 'rekt';
@@ -143,7 +149,7 @@ var rekt = {
 				rekt.img.el = {};
 				rekt.img.db = [
 					['snoop.gif','','300px'],
-					['kid.gif','','60%'],
+					['kid.gif','','300px'],
 					['frog.gif','','60%'],
 					['chicken.gif','','300px'],
 					['techno-frog.gif','','60%'],
@@ -166,8 +172,6 @@ var rekt = {
 					count = count + 1;			
 				});
 			}
-			if (!rekt.bg.el) {
-			}
 		}
 		if (!options || !options.noSoundPls) {
 			if (!rekt.sound) {
@@ -178,7 +182,15 @@ var rekt = {
 				rekt.sound.appendChild(source);
 				rekt.div.appendChild(rekt.sound);
 			}
-			if (!rekt.bg.el) {
+		}
+		if (!options || !options.noSoundPls) {
+			if (!rekt.illum) {
+				rekt.illum = document.createElement('audio');
+				var source = document.createElement('source');
+				source.setAttribute('src','http://rekt.daniguardiola.me/ufo.mp3');
+				source.setAttribute('type','audio/mp3');
+				rekt.illum.appendChild(source);
+				rekt.div.appendChild(rekt.illum);
 			}
 		}
 		setTimeout(function(){
