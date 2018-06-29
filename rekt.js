@@ -158,7 +158,7 @@ var rekt = {
 					['techno-frog.gif','','60%'],
           ['woman.gif','','300px']
 				];
-				var prefix = './assets/img/';
+				var prefix = 'https://raw.githubusercontent.com/OhanaMeans/rektjs/afaa9961/assets/img/';
 				var count = 0;
 				[].forEach.call(rekt.img.db,function(image){
 					rekt.img.el['shit'+count] = document.createElement('img');
@@ -180,7 +180,7 @@ var rekt = {
 			if (!rekt.sound) {
 				rekt.sound = document.createElement('audio');
 				var source = document.createElement('source');
-				source.setAttribute('src','./assets/audio/dubstep.mp3');
+				source.setAttribute('src','https://raw.githubusercontent.com/OhanaMeans/rektjs/afaa9961/assets/audio/dubstep.mp3');
 				source.setAttribute('type','audio/mp3');
 				rekt.sound.appendChild(source);
 				rekt.div.appendChild(rekt.sound);
@@ -190,7 +190,7 @@ var rekt = {
 			if (!rekt.illum) {
 				rekt.illum = document.createElement('audio');
 				var source = document.createElement('source');
-				source.setAttribute('src','./assets/audio/ufo.mp3');
+				source.setAttribute('src','https://raw.githubusercontent.com/OhanaMeans/rektjs/afaa9961/assets/audio/ufo.mp3');
 				source.setAttribute('type','audio/mp3');
 				rekt.illum.appendChild(source);
 				rekt.div.appendChild(rekt.illum);
