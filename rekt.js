@@ -148,10 +148,13 @@ var rekt = {
 			if (!rekt.img.el) {
 				rekt.img.el = {};
 				rekt.img.db = [
-					['snoop.gif','','300px'],
-					['kid.gif','','300px'],
-					['frog.gif','','60%'],
+          ['anime.gif','','60%'],
+          ['calamardo.gif','','300px'],
 					['chicken.gif','','300px'],
+					['frog.gif','','60%'],
+          ['hatsunemiku.gif','','60%'],
+          ['kid.gif','','300px'],
+					['snoop.gif','','300px'],
 					['techno-frog.gif','','60%'],
           ['woman.gif','','300px']
 				];
