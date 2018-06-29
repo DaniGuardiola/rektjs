@@ -110,7 +110,7 @@ var rekt = {
 					'omg get rekt',
 					'u mad bro',
 					'noscope loll',
-					'SMOK EVR DAY'
+          'SMOK EVR DAY'
 				];
 				var count = 0;
 				[].forEach.call(rekt.text.db,function(mate){
@@ -153,9 +153,9 @@ var rekt = {
 					['frog.gif','','60%'],
 					['chicken.gif','','300px'],
 					['techno-frog.gif','','60%'],
-					['woman.gif','','300px']
+          ['woman.gif','','300px']
 				];
-				var prefix = 'http://rekt.daniguardiola.me/';
+				var prefix = './';
 				var count = 0;
 				[].forEach.call(rekt.img.db,function(image){
 					rekt.img.el['shit'+count] = document.createElement('img');
@@ -167,7 +167,7 @@ var rekt = {
 					rekt.img.el['shit'+count].style.bottom = "0";
 					rekt.img.el['shit'+count].style.left = "20%";
 					rekt.img.el['shit'+count].style.display = "none";
-					rekt.img.el['shit'+count].setAttribute('src',prefix+image[0]);
+					rekt.img.el['shit'+count].setAttribute('src',prefix + image[0]); // No prefix
 					rekt.div.appendChild(rekt.img.el['shit'+count]);
 					count = count + 1;			
 				});
