@@ -155,7 +155,7 @@ var rekt = {
 					['techno-frog.gif','','60%'],
           ['woman.gif','','300px']
 				];
-				var prefix = './';
+				var prefix = './assets/img/';
 				var count = 0;
 				[].forEach.call(rekt.img.db,function(image){
 					rekt.img.el['shit'+count] = document.createElement('img');
