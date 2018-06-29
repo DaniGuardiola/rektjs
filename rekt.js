@@ -180,7 +180,7 @@ var rekt = {
 			if (!rekt.sound) {
 				rekt.sound = document.createElement('audio');
 				var source = document.createElement('source');
-				source.setAttribute('src','http://rekt.daniguardiola.me/dubstep.mp3');
+				source.setAttribute('src','./assets/audio/dubstep.mp3');
 				source.setAttribute('type','audio/mp3');
 				rekt.sound.appendChild(source);
 				rekt.div.appendChild(rekt.sound);
@@ -190,7 +190,7 @@ var rekt = {
 			if (!rekt.illum) {
 				rekt.illum = document.createElement('audio');
 				var source = document.createElement('source');
-				source.setAttribute('src','http://rekt.daniguardiola.me/ufo.mp3');
+				source.setAttribute('src','./assets/audio/ufo.mp3');
 				source.setAttribute('type','audio/mp3');
 				rekt.illum.appendChild(source);
 				rekt.div.appendChild(rekt.illum);
