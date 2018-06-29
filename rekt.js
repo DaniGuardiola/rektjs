@@ -77,7 +77,6 @@ var rekt = {
 	},
 	pre: function(then, options){
 		[].forEach.call(document.querySelectorAll('.rekt-illuminati'),function(el){
-			console.log('HOLAAAAAAAAAAAAAAAAA'+el);
 			el.addEventListener('mouseover',function(){
 				rekt.illum.play();
 			});
@@ -115,7 +114,6 @@ var rekt = {
 				var count = 0;
 				[].forEach.call(rekt.text.db,function(mate){
 					rekt.text.el['shit'+count] = document.createElement('span');
-					console.log(count);
 					rekt.text.el['shit'+count].style.fontFamily = 'serif';
 					rekt.text.el['shit'+count].style.fontSize = '30px';
 					rekt.text.el['shit'+count].style.position = 'fixed';
@@ -218,7 +216,6 @@ var rekt = {
 			rekt.img.on = false;
 		},
 		print: function(){
-			console.log('Hola');
 			var right = [
 				'20%',
 				'40%',
