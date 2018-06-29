@@ -110,7 +110,7 @@ var rekt = {
 					'omg get rekt',
 					'u mad bro',
 					'noscope loll',
-					'SMOK EVR DAY'
+          'SMOK EVR DAY'
 				];
 				var count = 0;
 				[].forEach.call(rekt.text.db,function(mate){
@@ -148,14 +148,17 @@ var rekt = {
 			if (!rekt.img.el) {
 				rekt.img.el = {};
 				rekt.img.db = [
-					['snoop.gif','','300px'],
-					['kid.gif','','300px'],
-					['frog.gif','','60%'],
+          ['anime.gif','','60%'],
+          ['calamardo.gif','','300px'],
 					['chicken.gif','','300px'],
+					['frog.gif','','60%'],
+          ['hatsunemiku.gif','','60%'],
+          ['kid.gif','','300px'],
+					['snoop.gif','','300px'],
 					['techno-frog.gif','','60%'],
-					['woman.gif','','300px']
+          ['woman.gif','','300px']
 				];
-				var prefix = 'http://rekt.daniguardiola.me/';
+				var prefix = './assets/img/';
 				var count = 0;
 				[].forEach.call(rekt.img.db,function(image){
 					rekt.img.el['shit'+count] = document.createElement('img');
@@ -167,7 +170,7 @@ var rekt = {
 					rekt.img.el['shit'+count].style.bottom = "0";
 					rekt.img.el['shit'+count].style.left = "20%";
 					rekt.img.el['shit'+count].style.display = "none";
-					rekt.img.el['shit'+count].setAttribute('src',prefix+image[0]);
+					rekt.img.el['shit'+count].setAttribute('src',prefix + image[0]); // No prefix
 					rekt.div.appendChild(rekt.img.el['shit'+count]);
 					count = count + 1;			
 				});
@@ -177,7 +180,7 @@ var rekt = {
 			if (!rekt.sound) {
 				rekt.sound = document.createElement('audio');
 				var source = document.createElement('source');
-				source.setAttribute('src','http://rekt.daniguardiola.me/dubstep.mp3');
+				source.setAttribute('src','./assets/audio/dubstep.mp3');
 				source.setAttribute('type','audio/mp3');
 				rekt.sound.appendChild(source);
 				rekt.div.appendChild(rekt.sound);
@@ -187,7 +190,7 @@ var rekt = {
 			if (!rekt.illum) {
 				rekt.illum = document.createElement('audio');
 				var source = document.createElement('source');
-				source.setAttribute('src','http://rekt.daniguardiola.me/ufo.mp3');
+				source.setAttribute('src','./assets/audio/ufo.mp3');
 				source.setAttribute('type','audio/mp3');
 				rekt.illum.appendChild(source);
 				rekt.div.appendChild(rekt.illum);
