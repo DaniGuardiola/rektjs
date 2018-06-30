@@ -90,7 +90,7 @@ var rekt = {
 		if (!options || !options.cantDealWithIt) {
 			if (!rekt.sg) {
 				rekt.sg = document.createElement('img');
-				rekt.sg.setAttribute('src','http://rekt.daniguardiola.me/sunglasses.png');
+				rekt.sg.setAttribute('src','https://cdn.rawgit.com/OhanaMeans/rektjs/53abe669/assets/img/sunglasses.png');
 				rekt.sg.style.width = '50%';
 				rekt.sg.style.height = 'auto';
 				rekt.sg.style.position = 'fixed';
@@ -148,7 +148,6 @@ var rekt = {
 				rekt.img.el = {};
 				rekt.img.db = [
           ['anime.gif','','60%'],
-          ['calamardo.gif','','300px'],
 					['chicken.gif','','300px'],
 					['frog.gif','','60%'],
           ['hatsunemiku.gif','','60%'],
@@ -157,7 +156,7 @@ var rekt = {
 					['techno-frog.gif','','60%'],
           ['woman.gif','','300px']
 				];
-				var prefix = 'https://raw.githubusercontent.com/OhanaMeans/rektjs/afaa9961/assets/img/';
+				var prefix = 'https://cdn.rawgit.com/OhanaMeans/rektjs/53abe669/assets/img/';
 				var count = 0;
 				[].forEach.call(rekt.img.db,function(image){
 					rekt.img.el['shit'+count] = document.createElement('img');
@@ -179,7 +178,7 @@ var rekt = {
 			if (!rekt.sound) {
 				rekt.sound = document.createElement('audio');
 				var source = document.createElement('source');
-				source.setAttribute('src','https://raw.githubusercontent.com/OhanaMeans/rektjs/afaa9961/assets/audio/dubstep.mp3');
+				source.setAttribute('src','https://cdn.rawgit.com/OhanaMeans/rektjs/53abe669/assets/audio/dubstep.mp3');
 				source.setAttribute('type','audio/mp3');
 				rekt.sound.appendChild(source);
 				rekt.div.appendChild(rekt.sound);
@@ -189,7 +188,7 @@ var rekt = {
 			if (!rekt.illum) {
 				rekt.illum = document.createElement('audio');
 				var source = document.createElement('source');
-				source.setAttribute('src','https://raw.githubusercontent.com/OhanaMeans/rektjs/afaa9961/assets/audio/ufo.mp3');
+				source.setAttribute('src','https://cdn.rawgit.com/OhanaMeans/rektjs/53abe669/assets/audio/ufo.mp3');
 				source.setAttribute('type','audio/mp3');
 				rekt.illum.appendChild(source);
 				rekt.div.appendChild(rekt.illum);
