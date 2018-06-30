@@ -1,5 +1,6 @@
 var rekt = {
 	get: function(options, callback){
+    if(!callback) var callback = function() {};
 		rekt.pre(function(options){
 			var nextTimeOut = 0;
 			if (!options || !options.cantDealWithIt) {
