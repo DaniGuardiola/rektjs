@@ -8,9 +8,6 @@
 
 [![language](https://img.shields.io/badge/language-javascript-yellow.svg?style=for-the-badge)](https://www.javascript.com/) ![Awesome](https://img.shields.io/badge/%F0%9F%95%B6%EF%B8%8F-awesome-794aa4.svg?style=for-the-badge) [![pull request](https://img.shields.io/badge/Pull%20Request-2-brightgreen.svg?style=for-the-badge&logo=github)](https://github.com/DaniGuardiola/rektjs/pull/2)
 
-
-https://cdn.rawgit.com/OhanaMeans/rektjs/311785c3/src/rekt.js
-
 :vhs: Clone me!
 ----
 Clone the Github project using **git**:
