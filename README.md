@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://cdn.rawgit.com/OhanaMeans/rektjs/53abe669/assets/img/sunglasses.png" alt="rektJS" width="800">
+  <img src="https://cdn.jsdelivr.net/gh/OhanaMeans/rektjs@53abe669/assets/img/sunglasses.png" alt="rektJS" width="800">
 </h1>
 
 # rektJS
@@ -31,7 +31,7 @@ Import **rektJS** into your HTML file:
 
 If you need it, you can import it externally thanks to CDN:
 ```html
-<script src="https://cdn.rawgit.com/ohanameans/rektjs/master/src/rekt.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ohanameans/rektjs@master/src/rekt.js"></script>
 ```
 
 :triangular_ruler: Basic Usage
